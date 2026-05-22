@@ -1,23 +1,15 @@
-* {
-  box-sizing: border-box;
+body{
+  margin:0;
+  font-family:Arial;
+  overflow-x:hidden;
 }
 
-body {
-  overflow-x: hidden;
-  font-family: Arial, sans-serif;
+h1{
+  text-shadow:0 0 20px #00ff99;
 }
 
-h1 {
-  text-shadow: 0 0 20px #00ff99;
-}
-
-.btn-success {
-  box-shadow: 0 0 15px rgba(0,255,153,0.5);
-}
-
-/* slider image fix */
-.carousel-item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+.carousel-item img{
+  width:100%;
+  height:auto;
+  border-radius:10px; 
 }
