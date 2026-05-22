@@ -1,15 +1,18 @@
 body{
-  margin:0;
-  font-family:Arial;
   overflow-x:hidden;
+  font-family: Arial, sans-serif;
 }
 
 h1{
-  text-shadow:0 0 20px #00ff99;
+  text-shadow: 0 0 20px #00ff99;
 }
 
-.carousel-item img{
-  width:100%;
-  height:auto;
-  border-radius:10px; 
+img{
+  border-radius: 12px;
+}
+
+.video-box{
+  max-width: 900px;
+  margin: 0 auto;
+  border: 2px solid rgba(0,255,153,0.2);
 }
