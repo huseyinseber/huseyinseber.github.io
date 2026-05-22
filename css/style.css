@@ -1,11 +1,30 @@
-body{
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
   font-family: Arial, sans-serif;
 }
 
-h1{
+/* başlık glow efekti */
+h1 {
   text-shadow: 0 0 20px #00ff99;
 }
 
-.btn-success{
+/* bootstrap buton glow */
+.btn-success {
   box-shadow: 0 0 15px rgba(0,255,153,0.5);
+}
+
+/* image güvenliği */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* video container ekstra fix */
+iframe {
+  border-radius: 15px;
 }
