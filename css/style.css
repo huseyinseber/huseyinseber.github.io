@@ -35,9 +35,10 @@ p{
     margin-top:40px;
 }
 
-video{
+iframe{
     width:80%;
     max-width:900px;
+    height:450px;
     border-radius:20px;
     box-shadow:0 0 30px rgba(0,255,153,0.5);
 }
